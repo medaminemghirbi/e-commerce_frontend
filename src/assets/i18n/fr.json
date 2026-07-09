@@ -1,0 +1,302 @@
+{
+  "ANNOUNCEMENT_BAR": "🚚 Livraison sur toute la Tunisie · Livraison gratuite à partir de 99 TND",
+  "NAV": {
+    "HOME": "Accueil",
+    "PRODUCTS": "Produits",
+    "CONTACT": "Contact",
+    "ADMIN": "Administration",
+    "LOGIN": "Connexion",
+    "LOGOUT": "Déconnexion",
+    "MY_ORDERS": "Mes commandes",
+    "CART": "Panier",
+    "WISHLIST": "Favoris",
+    "FAQ": "FAQ",
+    "ASTUCES": "Astuces"
+  },
+  "FOOTER": {
+    "DESCRIPTION": "Votre partenaire de confiance pour les produits paramédicaux de qualité en Tunisie.",
+    "NAVIGATION": "Navigation",
+    "CONTACT": "Contact",
+    "LOCATIONS": "Nos adresses",
+    "RIGHTS": "Tous droits réservés."
+  },
+  "HOME": {
+    "FEATURED": {
+      "TITLE": "Produits Vedettes",
+      "SUBTITLE": "Découvrez notre sélection de produits les plus populaires",
+      "VIEW_ALL": "Voir tous les produits"
+    },
+    "WHY": {
+      "TITLE": "Pourquoi choisir MedicareInaya ?",
+      "FAST_TITLE": "Rapidité & Efficacité",
+      "FAST_DESC": "Navigation ultrarapide, recherche instantanée et accès facile à tout notre catalogue médical.",
+      "SECURE_TITLE": "Sécurité & Confiance",
+      "SECURE_DESC": "Produits certifiés, qualité garantie. Votre satisfaction est notre priorité absolue.",
+      "MULTILANG_TITLE": "Multilingue",
+      "MULTILANG_DESC": "Interface disponible en français, arabe et anglais pour servir tous nos clients."
+    },
+    "CTA": {
+      "TITLE": "Besoin d'information ?",
+      "SUBTITLE": "Contactez notre équipe d'experts pour toute demande de renseignement sur nos produits.",
+      "BUTTON": "Demander une information"
+    }
+  },
+  "SEARCH": {
+    "PLACEHOLDER": "Rechercher...",
+    "BUTTON": "Rechercher"
+  },
+  "PRODUCTS": {
+    "TITLE": "Nos Produits",
+    "SUBTITLE": "Découvrez notre catalogue complet de produits paramédicaux",
+    "FILTERS": "Filtres",
+    "CATEGORY": "Catégorie",
+    "ALL_CATEGORIES": "Toutes les catégories",
+    "MAX_PRICE": "Prix maximum",
+    "IN_STOCK_ONLY": "En stock uniquement",
+    "RESULTS": "résultat(s)",
+    "NO_RESULTS": "Aucun produit trouvé",
+    "TRY_DIFFERENT": "Essayez des termes de recherche différents ou modifiez les filtres.",
+    "BACK": "Retour aux produits",
+    "SORT": {
+      "NEWEST": "Plus récents",
+      "PRICE_ASC": "Prix croissant",
+      "PRICE_DESC": "Prix décroissant",
+      "NAME": "Nom A-Z"
+    }
+  },
+  "PRODUCT": {
+    "LOW_STOCK": "Stock faible",
+    "OUT_OF_STOCK": "Rupture de stock",
+    "INACTIVE": "Inactif",
+    "ACTIVE": "Actif",
+    "STOCK": "Stock",
+    "UNITS": "unités",
+    "ALL_STATUS": "Tous les statuts",
+    "IMAGE": "Image",
+    "NAME": "Nom",
+    "CATEGORY": "Catégorie",
+    "PRICE": "Prix",
+    "STATUS": "Statut",
+    "SELECT_CATEGORY": "Choisir une catégorie",
+    "NAME_FR": "Nom (FR)",
+    "NAME_AR": "Nom (AR)",
+    "NAME_EN": "Nom (EN)",
+    "DESC_FR": "Description (FR)",
+    "DESC_AR": "Description (AR)",
+    "DESC_EN": "Description (EN)",
+    "PURCHASE_PRICE": "Prix d'achat",
+    "SELLING_PRICE": "Prix de vente",
+    "MANUFACTURE_DATE": "Date de fabrication",
+    "EXPIRATION_DATE": "Date d'expiration",
+    "PROMOTION_ACTIVE": "Promotion active (-20%)",
+    "REQUEST_INFO": "Demander une information",
+    "NOT_FOUND": "Produit introuvable"
+  },
+  "CONTACT": {
+    "TITLE": "Contactez-nous",
+    "SUBTITLE": "Vous avez une question ? Notre équipe est disponible pour vous aider.",
+    "FORM_TITLE": "Envoyer un message",
+    "FIRST_NAME": "Prénom",
+    "LAST_NAME": "Nom",
+    "PHONE": "Téléphone",
+    "EMAIL": "Email",
+    "MESSAGE": "Message",
+    "PRODUCT_REQUESTED": "Produit demandé",
+    "SUBMIT": "Envoyer le message",
+    "SENDING": "Envoi en cours...",
+    "SUCCESS_TITLE": "Message envoyé !",
+    "SUCCESS_MESSAGE": "Nous vous répondrons dans les plus brefs délais.",
+    "SEND_ANOTHER": "Envoyer un autre message",
+    "NAME": "Nom complet",
+    "STATUS": "Statut",
+    "ALL": "Tous",
+    "STATUS_NEW": "Nouveau",
+    "STATUS_READ": "Lu",
+    "STATUS_REPLIED": "Répondu",
+    "INFO": {
+      "EMAIL": "Email",
+      "PHONE": "Téléphone",
+      "ADDRESS": "Adresse",
+      "HOURS": "Horaires"
+    }
+  },
+  "AUTH": {
+    "EMAIL": "Email",
+    "EMAIL_PLACEHOLDER": "votre@email.com",
+    "PASSWORD": "Mot de passe",
+    "PASSWORD_PLACEHOLDER": "••••••••",
+    "PHONE": "Téléphone",
+    "FIRST_NAME": "Prénom",
+    "LAST_NAME": "Nom",
+    "NO_ACCOUNT": "Pas encore de compte ?",
+    "HAS_ACCOUNT": "Déjà un compte ?",
+    "BACK_HOME": "Retour à l'accueil",
+    "LOGIN": {
+      "TITLE": "Connexion",
+      "SUBTITLE": "Connectez-vous à votre espace MedicareInaya",
+      "BUTTON": "Se connecter",
+      "LINK": "Se connecter"
+    },
+    "REGISTER": {
+      "TITLE": "Créer un compte",
+      "BUTTON": "Créer mon compte",
+      "LINK": "Créer un compte"
+    }
+  },
+  "ADMIN": {
+    "TITLE": "Administration",
+    "EDIT": "Modifier",
+    "DELETE": "Supprimer",
+    "SAVE": "Enregistrer",
+    "CANCEL": "Annuler",
+    "VIEW": "Voir",
+    "VIEW_ALL": "Voir tout",
+    "ACTIONS": "Actions",
+    "NAV": {
+      "DASHBOARD": "Tableau de bord",
+      "PRODUCTS": "Produits",
+      "CATEGORIES": "Catégories",
+      "MARQUES": "Marques",
+      "ORDERS": "Commandes",
+      "COUPONS": "Coupons",
+      "CONTACTS": "Demandes",
+      "NOTIFICATIONS": "Notifications",
+      "FAQS": "FAQ",
+      "REVIEWS": "Avis clients",
+      "ASTUCES": "Astuces"
+    },
+    "DASHBOARD": {
+      "TITLE": "Tableau de bord",
+      "SUBTITLE": "Vue d'ensemble de votre activité",
+      "LOW_STOCK": "Stock faible",
+      "EXPIRING": "Expirations proches",
+      "RECENT_CONTACTS": "Demandes récentes",
+      "NO_CONTACTS": "Aucune demande récente",
+      "DISTRIBUTION": "Distribution par catégorie",
+      "QUICK_ACTIONS": "Actions rapides",
+      "ADD_PRODUCT": "Nouveau produit",
+      "ADD_CATEGORY": "Nouvelle catégorie"
+    },
+    "STATS": {
+      "TOTAL_PRODUCTS": "Total Produits",
+      "PRODUCTS_SUB": "produits dans le catalogue",
+      "TOTAL_CATEGORIES": "Catégories",
+      "CATEGORIES_SUB": "catégories actives",
+      "LOW_STOCK": "Stock Faible",
+      "LOW_STOCK_SUB": "nécessitent un réapprovisionnement",
+      "CONTACT_REQUESTS": "Demandes",
+      "CONTACTS_SUB": "nouveaux messages"
+    },
+    "PRODUCTS": {
+      "TITLE": "Gestion des produits",
+      "ADD": "Ajouter un produit",
+      "EDIT": "Modifier le produit",
+      "EMPTY": "Aucun produit trouvé",
+      "BASIC_INFO": "Informations de base",
+      "PRICING": "Prix & Stock",
+      "DATES": "Dates",
+      "IMAGES": "Images",
+      "IMAGES_NOTE": "Ajoutez les URLs des images.",
+      "IMAGE_URL": "URL de l'image",
+      "ADD_IMAGE": "Ajouter une image",
+      "EXPIRY_NOTE": "Une promotion de 20% sera activée automatiquement 60 jours avant l'expiration."
+    },
+    "CATEGORIES": {
+      "TITLE": "Catégories",
+      "ADD": "Ajouter",
+      "EDIT": "Modifier la catégorie",
+      "EMPTY": "Aucune catégorie"
+    },
+    "SLIDER": {
+      "TITLE": "Slider principal",
+      "ADD": "Ajouter une image",
+      "EMPTY": "Aucune image dans le slider",
+      "EMPTY_SUB": "Ajoutez des images qui s'afficheront en page d'accueil.",
+      "UPLOAD": "Glisser-déposer ou choisir un fichier",
+      "UPLOAD_HINT": "PNG, JPG, WebP · Recommandé : 1920×700px",
+      "TITLE_FIELD": "Titre (optionnel)",
+      "SUBTITLE_FIELD": "Sous-titre (optionnel)",
+      "LINK": "Lien (optionnel)",
+      "LINK_LABEL": "Texte du bouton",
+      "SORT_ORDER": "Ordre d'affichage",
+      "ACTIVE": "Active (visible en page d'accueil)",
+      "INACTIVE": "Inactive (masquée)",
+      "SAVE": "Ajouter au slider",
+      "UPDATE": "Sauvegarder",
+      "ACTIVATE": "Activer",
+      "DEACTIVATE": "Désactiver",
+      "DELETE_CONFIRM": "Supprimer cette image du slider ?"
+    },
+    "CONTACTS": {
+      "TITLE": "Demandes clients",
+      "EMPTY": "Aucune demande"
+    },
+    "NOTIFICATIONS": {
+      "TITLE": "Notifications",
+      "MARK_ALL_READ": "Tout marquer comme lu",
+      "MARK_READ": "Marquer lu",
+      "EMPTY": "Aucune notification"
+    }
+  },
+  "CATEGORY": {
+    "NAME_FR": "Nom (FR)",
+    "NAME_AR": "Nom (AR)",
+    "NAME_EN": "Nom (EN)",
+    "DESCRIPTION": "Description",
+    "ICON": "Icône"
+  },
+  "CART": {
+    "TITLE": "Mon Panier",
+    "EMPTY": "Votre panier est vide",
+    "BROWSE": "Parcourir les produits",
+    "SUMMARY": "Récapitulatif",
+    "SUBTOTAL": "Sous-total",
+    "DELIVERY": "Livraison",
+    "TOTAL": "Total",
+    "COD_ONLY": "Paiement à la livraison uniquement",
+    "CHECKOUT": "Passer la commande",
+    "LOGIN_TO_ORDER": "Se connecter pour commander",
+    "CLEAR": "Vider le panier",
+    "ADD": "Ajouter au panier",
+    "IN_CART": "Dans le panier"
+  },
+  "WISHLIST": {
+    "TITLE": "Ma Liste de souhaits",
+    "EMPTY": "Votre liste de souhaits est vide",
+    "BROWSE": "Découvrir des produits",
+    "CLEAR": "Tout supprimer",
+    "ADD_TO_CART": "Ajouter au panier"
+  },
+  "CHECKOUT": {
+    "TITLE": "Finaliser la commande",
+    "DELIVERY_INFO": "Informations de livraison",
+    "FULL_NAME": "Nom complet",
+    "PHONE": "Téléphone",
+    "ADDRESS": "Adresse",
+    "CITY": "Ville",
+    "WILAYA": "Wilaya",
+    "SELECT_WILAYA": "Sélectionner une wilaya",
+    "NOTES": "Notes (optionnel)",
+    "PAYMENT_COD": "Paiement à la livraison",
+    "PAYMENT_COD_DESC": "Vous payez en espèces à la réception de votre commande",
+    "PLACE_ORDER": "Confirmer la commande",
+    "PLACING": "Traitement en cours...",
+    "SUCCESS_TITLE": "Commande confirmée !",
+    "SUCCESS_MSG": "Votre commande a été reçue. Référence :",
+    "MY_ORDERS": "Mes commandes"
+  },
+  "ORDERS": {
+    "TITLE": "Mes Commandes",
+    "ADMIN_TITLE": "Gestion des commandes",
+    "EMPTY": "Aucune commande",
+    "LOGIN_REQUIRED": "Connectez-vous pour voir vos commandes",
+    "ORDER_ID": "N° commande",
+    "STATUS": {
+      "PENDING": "En attente",
+      "CONFIRMED": "Confirmée",
+      "SHIPPED": "Expédiée",
+      "DELIVERED": "Livrée",
+      "CANCELLED": "Annulée"
+    }
+  }
+}

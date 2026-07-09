@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MedicareInaya — Maintenance</title>
+  <link rel="icon" type="image/png" href="/assets/images/logo.png" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 50%, #bbf7d0 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 24px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+      padding: 56px 48px;
+      max-width: 520px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .logo {
+      height: 80px;
+      width: auto;
+      margin-bottom: 32px;
+    }
+
+    .icon-wrap {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 28px;
+    }
+
+    .icon-wrap svg {
+      width: 40px;
+      height: 40px;
+      color: #16a34a;
+      stroke: #16a34a;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 800;
+      color: #111827;
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: #6b7280;
+      line-height: 1.6;
+      margin-bottom: 36px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #f0fdf4;
+      border: 1px solid #86efac;
+      color: #16a34a;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 8px 18px;
+      border-radius: 100px;
+      margin-bottom: 36px;
+    }
+
+    .pulse {
+      width: 8px;
+      height: 8px;
+      background: #16a34a;
+      border-radius: 50%;
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50%       { opacity: 0.4; transform: scale(1.4); }
+    }
+
+    .progress-bar {
+      height: 6px;
+      background: #f3f4f6;
+      border-radius: 100px;
+      overflow: hidden;
+      margin-bottom: 36px;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 65%;
+      background: linear-gradient(90deg, #16a34a, #22c55e);
+      border-radius: 100px;
+      animation: progress 2.5s ease-in-out infinite alternate;
+    }
+
+    @keyframes progress {
+      from { width: 45%; }
+      to   { width: 80%; }
+    }
+
+    .steps {
+      text-align: left;
+      border-top: 1px solid #f3f4f6;
+      padding-top: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .step {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 14px;
+      color: #374151;
+    }
+
+    .step-dot {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .step-dot.done { background: #dcfce7; color: #16a34a; }
+    .step-dot.active { background: #d1f0d1; color: #008000; animation: pulse 1.5s ease-in-out infinite; }
+    .step-dot.pending { background: #f3f4f6; color: #9ca3af; }
+
+    .contact {
+      margin-top: 32px;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+
+    .contact a {
+      color: #16a34a;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    @media (max-width: 480px) {
+      .card { padding: 36px 24px; }
+      h1 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="/assets/images/logo.png" alt="MedicareInaya" class="logo" onerror="this.style.display='none'" />
+
+    <div class="icon-wrap">
+      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="1.5">
+        <path stroke-linecap="round" stroke-linejoin="round"
+          d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"/>
+      </svg>
+    </div>
+
+    <h1>Maintenance en cours</h1>
+    <p class="subtitle">
+      Nous mettons à jour MedicareInaya pour vous offrir une meilleure expérience.
+      Nous serons de retour très bientôt.
+    </p>
+
+    <div class="badge">
+      <div class="pulse"></div>
+      Mise à jour en cours…
+    </div>
+
+    <div class="progress-bar">
+      <div class="progress-fill"></div>
+    </div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-dot done">✓</div>
+        <span>Sauvegarde des données</span>
+      </div>
+      <div class="step">
+        <div class="step-dot active">⟳</div>
+        <span>Déploiement des nouvelles fonctionnalités</span>
+      </div>
+      <div class="step">
+        <div class="step-dot pending">3</div>
+        <span>Vérification et remise en ligne</span>
+      </div>
+    </div>
+
+    <p class="contact">
+      Une question urgente ?
+      <a href="mailto:contact@medicareinaya.tn">contact@medicareinaya.tn</a>
+    </p>
+  </div>
+</body>
+</html>

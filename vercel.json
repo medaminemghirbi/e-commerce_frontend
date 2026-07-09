@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/medicareinaya/browser",
+  "framework": "angular",
+
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
