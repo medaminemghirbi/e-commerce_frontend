@@ -27,7 +27,7 @@ import { ProgressService } from '../../core/services/progress.service';
       >
         <!-- Logo -->
         <div class="flex items-center gap-3 h-16 px-4 border-b" style="border-color: var(--border)">
-          <img src="assets/images/logo.png" alt="MedicareInaya" class="h-16 w-auto shrink-0" />
+          <img src="assets/images/logo.png" alt="e-commerce" class="h-16 w-auto shrink-0" />
           @if (sidebarOpen()) {
             <span class="text-base font-bold" style="color: var(--text-primary)">
               Medicare<span style="color: var(--primary)">Inaya</span>

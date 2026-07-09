@@ -3,8 +3,8 @@ import { Title, Meta } from '@angular/platform-browser';
 import { Router } from '@angular/router';
 import { DOCUMENT } from '@angular/common';
 
-const SITE_NAME = 'MedicareInaya';
-const SITE_URL  = 'https://www.medicareinaya.tn';
+const SITE_NAME = 'e-commerce';
+const SITE_URL  = 'https://www.e-commerce.tn';
 const DEFAULT_IMAGE = `${SITE_URL}/assets/images/logo.png`;
 const DEFAULT_DESC  = 'Plateforme moderne de produits paramédicaux en Tunisie — Médicaments, Soins, Matériel médical.';
 
@@ -67,7 +67,7 @@ export class SeoService {
 
     this.set({
       title:       p.name_fr,
-      description: p.description_fr?.slice(0, 155) || `${p.name_fr} — disponible sur MedicareInaya.`,
+      description: p.description_fr?.slice(0, 155) || `${p.name_fr} — disponible sur e-commerce.`,
       image,
       url,
       type: 'product',

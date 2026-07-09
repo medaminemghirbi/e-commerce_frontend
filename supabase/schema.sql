@@ -1,5 +1,5 @@
 -- ============================================================
--- MedicareInaya — Full Reset with RLS
+-- e-commerce — Full Reset with RLS
 -- Run this in: Supabase Dashboard → SQL Editor
 -- ============================================================
 

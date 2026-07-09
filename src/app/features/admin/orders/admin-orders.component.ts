@@ -874,7 +874,7 @@ export class AdminOrdersComponent {
 </style></head><body>
 <div class="header">
   <div>
-    <div class="brand">💊 MedicareInaya</div>
+    <div class="brand">💊 e-commerce</div>
     <div class="brand-sub">Pharmacie & Parapharmacie en ligne · Tunisie</div>
   </div>
   <div>
@@ -921,7 +921,7 @@ export class AdminOrdersComponent {
 </div>
 
 <div class="footer">
-  Merci pour votre confiance — MedicareInaya · medicareinaya.tn<br/>
+  Merci pour votre confiance — e-commerce · e-commerce.tn<br/>
   Document généré le ${new Date().toLocaleString('fr-TN')}
 </div>
 </body></html>`;
@@ -981,7 +981,7 @@ export class AdminOrdersComponent {
 
 <div class="header-row">
   <div>
-    <div class="brand">💊 MedicareInaya</div>
+    <div class="brand">💊 e-commerce</div>
     <div style="font-size:12px;color:#64748b;margin-top:3px">Bon de livraison colis</div>
   </div>
   <div class="ref-block">
@@ -994,8 +994,8 @@ export class AdminOrdersComponent {
 <div class="addr-grid">
   <div class="addr-box">
     <div class="addr-label">📦 Expéditeur</div>
-    <p><strong>MedicareInaya</strong></p>
-    <p style="font-size:13px;color:#64748b;margin-top:4px">Tunisie<br/>medicareinaya.tn</p>
+    <p><strong>e-commerce</strong></p>
+    <p style="font-size:13px;color:#64748b;margin-top:4px">Tunisie<br/>e-commerce.tn</p>
   </div>
   <div class="addr-box dest">
     <div class="addr-label">📍 Destinataire</div>
@@ -1024,7 +1024,7 @@ export class AdminOrdersComponent {
 </div>
 
 <div class="footer">
-  Merci de manipuler ce colis avec soin — MedicareInaya<br/>
+  Merci de manipuler ce colis avec soin — e-commerce<br/>
   Généré le ${new Date().toLocaleString('fr-TN')} · Réf: #${shortId}
 </div>
 </body></html>`;

@@ -31,7 +31,7 @@ serve(async (req) => {
       `Montant total : *${total} TND*`,
       ``,
       `Vous serez livré(e) prochainement.`,
-      `Merci de votre confiance — *MedicareInaya* 💊`,
+      `Merci de votre confiance — *e-commerce* 💊`,
     ].join('\n')
 
     const res = await fetch(

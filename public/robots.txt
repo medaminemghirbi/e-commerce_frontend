@@ -6,4 +6,4 @@ Disallow: /cart
 Disallow: /checkout
 Disallow: /client/
 
-Sitemap: https://www.medicareinaya.tn/sitemap.xml
+Sitemap: https://www.e-commerce.tn/sitemap.xml

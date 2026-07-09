@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "medicareinaya": {
+    "e-commerce": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -67,10 +67,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "medicareinaya:build:production"
+              "buildTarget": "e-commerce:build:production"
             },
             "development": {
-              "buildTarget": "medicareinaya:build:development"
+              "buildTarget": "e-commerce:build:development"
             }
           },
           "defaultConfiguration": "development"

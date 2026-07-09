@@ -85,7 +85,7 @@ import { SeoService }      from '../../../core/services/seo.service';
           @for (slide of slides(); track slide.id; let i = $index) {
             <div class="slide" [class.active]="currentSlide()===i" [class.inactive]="currentSlide()!==i">
               <img [src]="sliderImgUrl(slide.image_url)" class="slide-img w-full h-full object-cover"
-                [alt]="slide.title || 'MedicareInaya'"
+                [alt]="slide.title || 'e-commerce'"
                 [attr.loading]="i === 0 ? 'eager' : 'lazy'"
                 [attr.fetchpriority]="i === 0 ? 'high' : null"
                 decoding="async" />
@@ -131,7 +131,7 @@ import { SeoService }      from '../../../core/services/seo.service';
       <div class="max-w-[1800px] mx-auto px-4 sm:px-8 lg:px-12 pt-5 sm:pt-6">
         <section class="relative flex items-center justify-center rounded-2xl sm:rounded-3xl aspect-[16/9] sm:aspect-[21/9] lg:aspect-[12/5]"
           style="background:linear-gradient(135deg,#041a0a 0%,#0a2e18 45%,#082410 100%)">
-          <img src="assets/images/logo.png" alt="MedicareInaya" class="h-40 w-auto opacity-90" />
+          <img src="assets/images/logo.png" alt="e-commerce" class="h-40 w-auto opacity-90" />
         </section>
       </div>
     }
@@ -211,7 +211,7 @@ import { SeoService }      from '../../../core/services/seo.service';
                 <span class="text-sm font-semibold">Toute la Tunisie</span>
               </div>
 
-              <img src="assets/images/livraison.png" alt="Livraison MedicareInaya"
+              <img src="assets/images/livraison.png" alt="Livraison e-commerce"
                 class="relative rounded-3xl shadow-2xl w-full object-cover"
                 style="aspect-ratio:4/3;object-position:center" />
             </div>
@@ -492,8 +492,8 @@ export class HomeComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.seo.set({
       title: 'Accueil',
-      description: 'MedicareInaya — Votre plateforme de produits paramédicaux en Tunisie. Médicaments, soins, matériel médical livrés rapidement.',
-      url: 'https://medicareinaya.com',
+      description: 'e-commerce — Votre plateforme de produits paramédicaux en Tunisie. Médicaments, soins, matériel médical livrés rapidement.',
+      url: 'https://e-commerce.com',
     });
     this.astuceSvc.getAll().subscribe(list => this.astuces.set(list.slice(0, 3)));
     this.reviewSvc.getPublished().subscribe(list => {

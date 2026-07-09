@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/medicareinaya/browser",
+  "outputDirectory": "dist/e-commerce/browser",
   "framework": "angular",
 
   "rewrites": [

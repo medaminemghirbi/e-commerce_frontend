@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://medicareinaya-backend.onrender.com/api/v1',
+  apiUrl: 'https://e-commerce-backend.onrender.com/api/v1',
 };

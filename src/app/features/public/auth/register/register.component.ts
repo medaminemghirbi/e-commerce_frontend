@@ -14,7 +14,7 @@ import { Router } from '@angular/router';
     <div class="min-h-[70vh] flex items-center justify-center px-4 py-12" style="background: var(--bg)">
       <div class="w-full max-w-md">
         <div class="text-center mb-8">
-          <img src="assets/images/logo.png" alt="MedicareInaya" class="h-36 w-auto mx-auto mb-4" />
+          <img src="assets/images/logo.png" alt="e-commerce" class="h-36 w-auto mx-auto mb-4" />
         </div>
 
         <div class="card p-8">

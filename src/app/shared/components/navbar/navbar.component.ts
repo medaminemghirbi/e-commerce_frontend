@@ -21,7 +21,7 @@ import { WishlistService } from '../../../core/services/wishlist.service';
         <div class="flex items-center justify-between h-16">
           <!-- Logo -->
           <a routerLink="/" class="flex items-center gap-2">
-            <img src="assets/images/logo.png" alt="MedicareInaya" class="h-24 w-auto" />
+            <img src="assets/images/logo.png" alt="e-commerce" class="h-24 w-auto" />
           </a>
 
           <!-- Desktop nav -->

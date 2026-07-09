@@ -16,7 +16,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
           <div>
             <div class="flex items-center gap-2.5 mb-4">
           <a routerLink="/" class="flex items-center gap-2">
-            <img src="assets/images/logo.png" alt="MedicareInaya" class="h-36 w-auto" />
+            <img src="assets/images/logo.png" alt="e-commerce" class="h-36 w-auto" />
           </a>
             </div>
             <p class="text-sm leading-relaxed max-w-xs" style="color: var(--text-secondary)">
@@ -93,7 +93,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
         <div class="mt-10 pt-6 border-t flex flex-col md:flex-row items-center justify-between gap-4" style="border-color: var(--border)">
           <p class="text-sm" style="color: var(--text-secondary)">
-            © {{ year }} MedicareInaya. {{ 'FOOTER.RIGHTS' | translate }}
+            © {{ year }} e-commerce. {{ 'FOOTER.RIGHTS' | translate }}
           </p>
           <div class="flex items-center gap-4 text-sm" style="color: var(--text-secondary)">
             <a routerLink="/contact" class="hover:text-[#008000] transition-colors">{{ 'FOOTER.CONTACT' | translate }}</a>

@@ -134,7 +134,7 @@ export class MarqueDetailComponent implements OnInit {
     if (m) {
       this.seo.set({
         title: m.name,
-        description: m.description ?? `Découvrez tous les produits ${m.name} disponibles sur MedicareInaya.`,
+        description: m.description ?? `Découvrez tous les produits ${m.name} disponibles sur e-commerce.`,
         image: m.image,
       });
     }

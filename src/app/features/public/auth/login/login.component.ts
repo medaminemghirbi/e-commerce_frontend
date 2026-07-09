@@ -15,7 +15,7 @@ import { Router } from '@angular/router';
       <div class="w-full max-w-md">
         <!-- Logo -->
         <div class="text-center mb-8">
-          <img src="assets/images/logo.png" alt="MedicareInaya" class="h-36 w-auto mx-auto mb-4" />
+          <img src="assets/images/logo.png" alt="e-commerce" class="h-36 w-auto mx-auto mb-4" />
           <p class="mt-1 text-sm" style="color: var(--text-secondary)">{{ 'AUTH.LOGIN.SUBTITLE' | translate }}</p>
         </div>
 

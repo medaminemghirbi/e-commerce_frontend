@@ -27,7 +27,7 @@
       "VIEW_ALL": "View all products"
     },
     "WHY": {
-      "TITLE": "Why choose MedicareInaya?",
+      "TITLE": "Why choose e-commerce?",
       "FAST_TITLE": "Speed & Efficiency",
       "FAST_DESC": "Ultra-fast navigation, instant search and easy access to our entire medical catalog.",
       "SECURE_TITLE": "Security & Trust",
@@ -118,7 +118,7 @@
     "NO_ACCOUNT": "Don't have an account?",
     "HAS_ACCOUNT": "Already have an account?",
     "BACK_HOME": "Back to home",
-    "LOGIN": { "TITLE": "Sign in", "SUBTITLE": "Sign in to your MedicareInaya account", "BUTTON": "Sign in", "LINK": "Sign in" },
+    "LOGIN": { "TITLE": "Sign in", "SUBTITLE": "Sign in to your e-commerce account", "BUTTON": "Sign in", "LINK": "Sign in" },
     "REGISTER": { "TITLE": "Create an account", "BUTTON": "Create account", "LINK": "Create account" }
   },
   "ADMIN": {
